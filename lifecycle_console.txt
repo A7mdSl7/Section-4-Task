@@ -1,0 +1,15 @@
+LoginPage: initState
+LoginPage: didChangeDependencies
+LoginPage: build
+ProductsPage: initState
+ProductsPage: didChangeDependencies -> width: 1036, height: 703.2000122070312
+ProductsPage: build
+ProductsPage: build (heart setState)
+DetailsPage: initState
+DetailsPage: didChangeDependencies
+DetailsPage: build
+ProductsPage: build
+DetailsPage: deactivate
+DetailsPage: dispose
+ProductsPage: didChangeDependencies -> width: 481.6000061035156, height: 703.2000122070312
+ProductsPage: build
