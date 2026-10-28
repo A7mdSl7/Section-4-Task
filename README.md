@@ -1,17 +1,30 @@
-# mini_product_catalog
+# Mini Product Catalog
 
-A new Flutter project.
+A small Flutter product catalog with Login, Products, and Product Details screens. It uses `go_router` for navigation and includes responsive product layouts and lifecycle logging.
 
-## Getting Started
+## Requirements
 
-This project is a starting point for a Flutter application.
+- Flutter SDK installed and available on your `PATH`
+- A connected device, emulator, or web browser
 
-A few resources to get you started if this is your first Flutter project:
+## Run the project
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+From the project root, install the dependencies:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+```
+
+Then run the app on a connected device or emulator:
+
+```bash
+flutter run
+```
+
+To run it in Chrome:
+
+```bash
+flutter run -d chrome
+```
+
+To see the lifecycle messages, watch the run/debug console. Resize the browser to see the Products page switch between list and grid layouts at 600 px.
